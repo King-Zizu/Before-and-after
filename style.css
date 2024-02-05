@@ -1,0 +1,27 @@
+h2::first-letter{
+    font-size: 2em;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+p::first-line{
+    font-size: 25px;
+    color: lightskyblue;
+   opacity: 0.1;
+
+}
+ #fruit ::before{
+    content: "✔️";
+
+} 
+.apple::after{
+    content: "🍎";
+    width: 20px;
+    height: 20px;
+}
+.orange::after{
+    content: "🍊";
+}
+.banana::after{
+    content: " 🍌";
+}
